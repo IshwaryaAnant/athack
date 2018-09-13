@@ -1,0 +1,451 @@
+body, h1, h2, h3, h4, h5, h6 {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Lato', serif;
+}
+
+@font-face {
+    font-family: 'Anders';
+    src: url('../fonts/Anders.ttf');
+}
+@font-face {
+    font-family: 'Big John';
+    src: url('../fonts/BIG JOHN.otf');
+}
+@font-face {
+    font-family: 'Slim Joe';
+    src: url('../fonts/Slim Joe.otf');
+}
+
+h1 {
+  font-size: 150px;
+}
+
+h2 {
+  font-size: 96px;
+}
+
+h3 {
+  font-size: 48px;
+}
+
+h4 {
+  font-size: 44px;
+}
+
+h5 {
+  font-size: 24px;
+}
+
+h6 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 16px;
+}
+
+a, a:hover, a:visited, a:active {
+  text-decoration: none;
+}
+
+.bigjohn {
+  font-family: 'Big John', sans-serif;
+}
+
+.anders {
+  font-family: 'Anders', serif;
+}
+
+.colored {
+  color: rgb(153,120,181);
+}
+
+.navbar {
+  font-family: 'Slim Joe', sans-serif;
+  margin-bottom: 0px;
+}
+
+.navbar .container {
+  margin-left: 0px;
+}
+
+.navbar .container .navbar-header > span {
+  color: rgb(153,120,181);
+  font-size: 36px;
+}
+
+.navbar .container .navbar-right > li > a {
+  color: white;
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+.navbar .container .navbar-right > li > a:hover {
+  color: gray;
+}
+
+#pastwinners #background-images #content > li > a {
+  color: purple;
+  font-size: 60px;
+  padding-top: 20px;  
+}
+
+.navbar-past > li > a {
+  color: purple;
+  font-size: 60px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+#pastwinners #background-images #content #img {
+  text-align: center;  
+}
+
+#pastwinners #background-images #content .navbar-past  > li > a:hover {
+  color: black;
+}
+.section {
+  clear: both;
+}
+
+#main {
+  /*background-image: url("../img/walker.jpg");*/
+  background-image: url("../img/36.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  height: 600px;
+}
+
+#main #overlay {
+  width: 100%;
+  height: 600px;
+  background-color: rgba(153,120,181,0.5);
+  /*background-color: rgb(58,57,60);*/
+}
+
+#main #name-display {
+  /*opacity: 0.8;*/
+  /*background-color: rgb(153,120,181);*/
+  border: 2px solid white;
+  padding: 30px;
+  margin: auto;
+  z-index: 1;
+  display: inline-block;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%); /* IE 9 */
+  -webkit-transform: translate(-50%,-50%); /* Chrome, Safari, Opera */
+  transform: translate(-50%,-50%);
+}
+
+#main #name-display img {
+  width: 100%;
+}
+
+#main #name-display a #registration {
+  /* rgb(58,57,60) */
+  background-color: gray;
+  color: white;
+  padding: 5px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 10px solid rgb(58,57,60);
+}
+
+#main #name-display a:hover #registration {
+  background-color: white;
+  color: rgb(153,120,181);
+}
+
+#about {
+  color: white;
+}
+
+
+#about #heading {
+  background-color: rgb(153,120,181);
+  padding: 50px;
+}
+
+#about #content {
+  background-color: rgb(58,57,60);
+  padding-bottom: 40px;
+}
+
+#about #content img {
+  margin: 40px;
+  width: 50%;
+}
+
+#about #content #blurb {
+  margin: 20px;
+  width: 50%;
+}
+
+#about #content h5 {
+  width: 70%;
+}
+
+#schedule {
+  background-color: rgb(153,120,181);
+  color: white;
+}
+
+#schedule #background-images {
+  background-image: url("../img/tiledbackground.png");
+  padding-bottom: 120px;
+}
+
+#schedule h2 {
+  padding: 30px;
+}
+
+#schedule #content {
+  background-color: rgba(255,255,255,0.5);
+  color: black;
+  padding: 60px;
+  width: 70%;
+}
+
+#schedule #content h5 {
+  color: rgb(153,120,181);
+  font-size: 36px;
+  padding-bottom: 10px;
+}
+
+#schedule #content .address {
+  padding-top: 7px;
+  padding-bottom: 20px;
+  font-size: 16px;
+}
+
+#faq {
+  padding-bottom: 30px;
+}
+
+#faq h2 {
+  padding: 30px;
+  color: rgb(153,120,181);
+}
+
+#faq #questions {
+  width: 70%;
+  margin: auto;
+}
+
+#faq #questions .item {
+  padding-bottom: 15px;
+}
+
+#team {
+  color: white;
+}
+
+#team #heading {
+  background-color: rgb(153,120,181);
+  padding: 50px;
+}
+
+#team #content {
+  background-color: rgb(58,57,60);
+  padding-bottom: 40px;
+}
+
+#team #content #pictures {
+  width: 70%;
+}
+
+#team #content #pictures .col-md-3 {
+  width: 150px;
+  height: 150px;
+  margin: 25px 5px;
+  padding: 0px;
+}
+
+#team #content #pictures .col-md-3 .picture {
+  background-size: 150px 150px;
+}
+
+#team #content #pictures .col-md-3 img {
+  height: 150px;
+  width: 150px;
+}
+#team #content #pictures .picture .overlay {
+  width: 150px;
+  height: 150px;
+  background-color: rgba(153,120,181,0.5);
+}
+
+
+#team #content #ishwarya {
+  background-image: url("../img/team/Ishwarya_orig.jpg");
+}
+
+#team #content #jaya {
+  background-image: url("../img/team/Jaya_orig.jpg");
+}
+
+#team #content #william {
+  background-image: url("../img/team/William_orig.jpg");
+}
+
+#team #content #emma {
+  background-image: url("../img/team/Emma_orig.jpg");
+}
+
+#team #content #jen {
+  background-image: url("../img/team/Jen_orig.jpg");
+}
+
+#team #content #ben {
+  background-image: url("../img/team/Ben_orig.jpg");
+}
+
+#team #content #jonathan {
+  background-image: url("../img/team/Jonathan.jpg");
+}
+
+#team #content #annie {
+  background-image: url("../img/team/Annie_full.jpg");
+}
+
+
+#team #content #tally {
+  background-image: url("../img/team/Tally_orig.png");
+}
+
+
+#team #content #pmanning {
+  background-image: url("../img/team/PManning_orig.jpg");
+}
+
+#team #content #teller {
+  clear: both;
+  width: 40%;
+}
+
+#team #content #teller img {
+  border: 2px solid white;
+  border-radius: 5px;
+  width: 150px;
+  height: 100%;
+  margin: 30px;
+}
+
+#pastwinners {
+  background-color: rgb(153,120,181);
+  color: white;
+}
+
+#pastwinners #background-images {
+  background-image: url("../img/tiledbackground.png");
+  padding-bottom: 120px;
+}
+
+#pastwinners h2 {
+  padding: 30px;
+}
+
+#pastwinners #content {
+  background-color: rgba(255,255,255,0.5);
+  color: black;
+  padding: 60px;
+  width: 70%;
+  text-align: left;
+}
+
+#pastwinners #content h5 {
+  color: rgb(153,120,181);
+  font-size: 36px;
+  padding-bottom: 10px;
+}
+
+#pastwinners #content img {
+  padding: 20px;
+}
+#pastwinners #content #pictures {
+  width: 640px;
+}
+
+#pastwinners #content #pictures .col-md-3 {
+  width: 150px;
+  height: 150px;
+  margin: 25px 5px;
+  padding: 0px;
+}
+
+#pastwinners #content #pictures .col-md-3 .picture {
+  background-size: 150px 150px;
+}
+
+#pastwinners #content #pictures .picture .overlay {
+  width: 150px;
+  height: 150px;
+  background-color: rgba(153,120,181,0.5);
+}
+
+
+#pastwinners #content #d3 {
+  background-image: url("../img/winners/3d.png");
+}
+
+#sponsors {
+  padding-bottom: 30px;
+}
+
+#sponsors h2 {
+  padding: 30px;
+  color: rgb(153,120,181);
+}
+
+#sponsors #sponsors-list {
+  width: 80%;
+  margin: auto;
+}
+
+#sponsors #sponsors-list .item {
+  padding-bottom: 15px;
+}
+
+#sponsors #sponsors-list img {
+  max-height: 80px;
+  max-width: 70%;
+}
+
+#contact {
+  background-color: rgb(58,57,60);
+  padding-bottom: 30px;
+}
+
+#contact h2 {
+  padding: 30px;
+  color: rgb(153,120,181);
+}
+
+#contact h5 {
+  color: white;
+  width: 50%;
+  padding-bottom: 15px;
+}
+
+#contact h5 a {
+  color: rgb(153,120,181);
+}
+
+#contact h5 a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#contact a {
+  cursor: pointer;
+}
+
+#contact i {
+  color: rgb(153,120,181);
+  font-size: 24px;
+}
